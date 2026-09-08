@@ -10,7 +10,8 @@
   function emailOk(e){return new RegExp(window.PUST_CONFIG.emailRegex+"$","i").test((e||"").trim())}
   function endpoint(){return (localStorage.getItem("pust_drive_endpoint")||"").trim()}
   async function post(obj){
-    const r=await fetch(endpoint(),{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(obj)});
+    // text/plain = CORS simple request (no preflight); Apps Script reads raw body either way
+    const r=await fetch(endpoint(),{method:"POST",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(obj)});
     if(!r.ok)throw new Error("Backend error "+r.status);
     return r.json();
   }

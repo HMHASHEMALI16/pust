@@ -31,7 +31,28 @@
   }
 
   // ---- shared (GitHub) ----
+  // retry locally-queued (pending) reviews — heals a failed sync on the next page visit (logged in only)
+  async function flushPending(){
+    if(!ticket())return;
+    const shIds=new Set((shared().reviews||[]).map(r=>r.id));
+    const local=ls(LS_R,[]);
+    let changed=false;
+    for(const r of local.slice(0,10)){
+      if(!r.pending||r.removed||shIds.has(r.id)){if(shIds.has(r.id)&&r.pending){r.pending=false;changed=true;}continue;}
+      try{
+        const {pending,...clean}=r;
+        const j=await postBE({type:"review_add",ticket:ticket(),review:clean});
+        if(j.ok){r.pending=false;changed=true;}
+      }catch(e){/* keep pending, retry later */}
+    }
+    if(changed)saveLocal(local);
+  }
   async function refresh(){
+    await fetchShared();
+    flushPending().catch(()=>{});
+    return shared();
+  }
+  async function fetchShared(){
     try{
       const g=gh();
       const base=`https://raw.githubusercontent.com/${g.owner}/${g.repo}/${g.branch}`;
@@ -79,7 +100,8 @@
   }
   async function postBE(obj){
     const ep=backend();if(!ep)throw new Error("noconfig");
-    const r=await fetch(ep,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(obj)});
+    // text/plain = CORS simple request (no preflight); Apps Script reads raw body either way
+    const r=await fetch(ep,{method:"POST",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify(obj)});
     if(!r.ok)throw new Error("backend "+r.status);
     return r.json();
   }
