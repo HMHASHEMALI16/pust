@@ -1,0 +1,193 @@
+{
+  "departments": [
+    {
+      "id": "cse",
+      "code": "CSE",
+      "pust_code": "D01",
+      "name": "Department of Computer Science and Engineering",
+      "chairman": "Dr. Md. Abdur Rahim",
+      "email": "cse@pust.ac.bd",
+      "phone": "+8802588844876"
+    },
+    {
+      "id": "eee",
+      "code": "EEE",
+      "pust_code": "D02",
+      "name": "Department of Electrical and Electronic Engineering",
+      "chairman": "Dr. T. H. M. Sumon Rashid",
+      "email": "chairman.eee@pust.ac.bd",
+      "phone": "+8802588844890"
+    },
+    {
+      "id": "math",
+      "code": "MATH",
+      "pust_code": "D03",
+      "name": "Department of Mathematics",
+      "chairman": "Dr. Md. Fazlul Hoque",
+      "email": "chairman.math@pust.ac.bd",
+      "phone": "+8802588843572"
+    },
+    {
+      "id": "ba",
+      "code": "BA",
+      "pust_code": "D04",
+      "name": "Department of Business Administration",
+      "chairman": "Dr. Md. Kamruzzaman",
+      "email": "chairman_dba@pust.ac.bd",
+      "phone": "+8802588845265"
+    },
+    {
+      "id": "eece",
+      "code": "EECE",
+      "pust_code": "D05",
+      "name": "Department of Electrical, Electronic and Communication Engineering",
+      "chairman": "Dr. Sheikh Rashel Al Ahmed",
+      "email": "chairman.eece@pust.ac.bd",
+      "phone": "+8802588844903"
+    },
+    {
+      "id": "ice",
+      "code": "ICE",
+      "pust_code": "D06",
+      "name": "Department of Information and Communication Engineering",
+      "chairman": "Dr. Md. Anwar Hossain",
+      "email": "chairman.ice@pust.ac.bd",
+      "phone": "+8802588844986"
+    },
+    {
+      "id": "phy",
+      "code": "PHY",
+      "pust_code": "D07",
+      "name": "Department of Physics",
+      "chairman": "Dr. Md. Khairul Alam",
+      "email": "chairman.phy@pust.ac.bd",
+      "phone": "+8802588844898"
+    },
+    {
+      "id": "eco",
+      "code": "ECO",
+      "pust_code": "D08",
+      "name": "Department of Economics",
+      "chairman": "Dr. Mir Khaled Iqbal Chowdhury",
+      "email": "economics@pust.ac.bd",
+      "phone": "+8802588844905"
+    },
+    {
+      "id": "ge",
+      "code": "GE",
+      "pust_code": "D09",
+      "name": "Department of Geography and Environment",
+      "chairman": "Dr. Mohammad Najmul Islam",
+      "email": "chairman.ge@pust.ac.bd",
+      "phone": "+8802588844907"
+    },
+    {
+      "id": "ban",
+      "code": "BAN",
+      "pust_code": "D10",
+      "name": "Department of Bangla",
+      "chairman": "Dr. Mir Humayun Kabir",
+      "email": "chairman.bangla@pust.ac.bd",
+      "phone": "+8802588844914"
+    },
+    {
+      "id": "ce",
+      "code": "CE",
+      "pust_code": "D11",
+      "name": "Department of Civil Engineering",
+      "chairman": "Dr. Tahmina Tasnim Nahar",
+      "email": "chairman.ce@pust.ac.bd",
+      "phone": "+8802588844915"
+    },
+    {
+      "id": "arch",
+      "code": "ARCH",
+      "pust_code": "D12",
+      "name": "Department of Architecture",
+      "chairman": "Laila Arzumand Banu",
+      "email": "chairman.arch@pust.ac.bd",
+      "phone": "+8802588846271"
+    },
+    {
+      "id": "pharm",
+      "code": "PHARM",
+      "pust_code": "D13",
+      "name": "Department of Pharmacy",
+      "chairman": "Dr. Md. Shamim Reza",
+      "email": "chair.pharm@pust.ac.bd",
+      "phone": "+8802588844921"
+    },
+    {
+      "id": "chem",
+      "code": "CHEM",
+      "pust_code": "D14",
+      "name": "Department of Chemistry",
+      "chairman": "Ratan Kumar Paul",
+      "email": "chairman.che@pust.ac.bd",
+      "phone": "+8802588844828"
+    },
+    {
+      "id": "sw",
+      "code": "SW",
+      "pust_code": "D15",
+      "name": "Department of Social Work",
+      "chairman": "Dr. Md. Jahidul Islam",
+      "email": "chairman.sw@pust.ac.bd",
+      "phone": "+8802588844847"
+    },
+    {
+      "id": "stat",
+      "code": "STAT",
+      "pust_code": "D16",
+      "name": "Department of Statistics and Data Science",
+      "chairman": "Dr. Sabba Ruhi",
+      "email": "chairman.stat@pust.ac.bd",
+      "phone": "+8802588843588"
+    },
+    {
+      "id": "urp",
+      "code": "URP",
+      "pust_code": "D17",
+      "name": "Department of Urban and Regional Planning",
+      "chairman": "Dr. Md. Ashrafuzzaman Pramanik",
+      "email": "chairman.urp@pust.ac.bd",
+      "phone": "+8802588844982"
+    },
+    {
+      "id": "eng",
+      "code": "ENG",
+      "pust_code": "D18",
+      "name": "Department of English",
+      "chairman": "Dr. Md. Mokarrom Hossain",
+      "email": "chair_english@pust.ac.bd",
+      "phone": "+8802588844265"
+    },
+    {
+      "id": "pad",
+      "code": "PAD",
+      "pust_code": "D19",
+      "name": "Department of Public Administration",
+      "chairman": "Md. Al-Fahad Bhuiyan",
+      "email": "chairman.pa@pust.ac.bd",
+      "phone": "+8802588844821"
+    },
+    {
+      "id": "his",
+      "code": "HIS",
+      "pust_code": "D20",
+      "name": "Department of History",
+      "chairman": "Dr. Md. Habibullah",
+      "email": "chairman.hbs@pust.ac.bd",
+      "phone": "+8802588844926"
+    },
+    {
+      "id": "thm",
+      "code": "THM",
+      "pust_code": "D21",
+      "name": "Department of Tourism and Hospitality Management",
+      "chairman": "Md. Ashikur Rahman Avi",
+      "email": "thm@pust.ac.bd",
+      "phone": ""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Recent reviews — PUST</title><link rel="stylesheet" href="css/style.css"><link rel="icon" href="assets/logo.svg"></head><body>
+<main class="wrap" style="padding:28px 16px"><h1>Recent reviews</h1><p class="sub">Latest anonymous reviews across every professor and course.</p><div id="g"></div></main>
+<script src="js/config.js"></script><script src="js/auth.js"></script><script src="js/db.js"></script><script src="js/ui.js"></script>
+<script>
+PUST_UI.mount();
+(async()=>{
+  const pub=await PUST_DB.loadPublic();
+  await PUST_DB.refresh().catch(()=>{});
+  const pmap={};pub.professors.forEach(p=>pmap[p.pust_id||p.id]=p);
+  const revs=PUST_DB.reviews();
+  document.getElementById("g").innerHTML=revs.length?revs.map(r=>{const p=pmap[r.professor_id]||{name:r.professor_id,department_code:""};return `
+  <div class="review"><div class="chead"><a href="professor.html?id=${encodeURIComponent(r.professor_id)}"><b>${PUST_UI.esc(p.name)}</b></a>
+  <a class="pill" href="department.html?dept=${p.department_code}">${PUST_UI.esc(p.department_code)}</a>
+  <span class="muted">${PUST_UI.esc(r.course_code)} · ${PUST_UI.esc(r.academic_year)}</span>
+  <span style="margin-left:auto"><span class="stars">${PUST_UI.stars(r.overall)}</span> <b>${r.overall.toFixed(1)}</b></span></div>
+  ${r.comment?`<p>${PUST_UI.esc(r.comment)}</p>`:""}<small class="muted">${r.created_at}</small>
+  <div style="margin-top:8px;display:flex;gap:8px"><button class="btn btn-sm" onclick="PUST_UI.helpful('${r.id}',this)">${r.helpful_count||0} Helpful</button><button class="btn btn-sm" onclick="PUST_UI.reportDialog('${r.id}')">Report</button></div></div>`}).join(""):"<p class='muted'>No reviews yet.</p>";
+})();
+</script></body></html>

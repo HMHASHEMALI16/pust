@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Write a review — PUST</title><link rel="stylesheet" href="css/style.css"><link rel="icon" href="assets/logo.svg"></head><body>
+<main class="wrap" style="padding:28px 16px;max-width:720px" id="m"></main>
+<script src="js/config.js"></script><script src="js/auth.js"></script><script src="js/db.js"></script><script src="js/ui.js"></script>
+<script>
+PUST_UI.mount();
+(async()=>{
+  const u=PUST_AUTH.user();
+  if(!u){document.getElementById("m").innerHTML=`<h1>Write a review</h1><div class="card"><p>Sign in to write a review</p><a class="btn btn-primary" href="login.html?next=write-review.html">Sign in</a><p class="muted">Your review is not shown publicly or to moderators with your name.</p></div>`;return;}
+  const pub=await PUST_DB.loadPublic();
+  const pre=PUST_UI.qp("professor")||"";
+  const groups=pub.questions.groups;
+  document.getElementById("m").innerHTML=`<h1>Write a review</h1><p class="muted">Logged in as ${PUST_UI.esc(u.email)} • anonymous to readers</p>
+  <div class="card form">
+  <label>Professor<select id="prof">${pub.professors.map(p=>`<option value="${p.pust_id}" ${String(p.pust_id)===pre?"selected":""}>${PUST_UI.esc(p.name)} — ${p.department_code}</option>`).join("")}</select></label>
+  <label>Course code<input id="course" placeholder="e.g. CSE 101"></label>
+  <label>Year / semester<input id="year" placeholder="e.g. 1st year, 3rd semester"></label>
+  <div id="qs">${groups.map(g=>`<h4>${PUST_UI.esc(g.group)}</h4>`+g.questions.map(q=>`<label>${PUST_UI.esc(q.text)}<div class="star-input" data-k="${q.key}">${[1,2,3,4,5].map(v=>`<button type="button" data-v="${v}">${v}</button>`).join("")}</div></label>`).join("")).join("")}</div>
+  <label>Comment (optional)<textarea id="comment" rows="4" placeholder="How was teaching, grading, workload...?"></textarea></label>
+  <button class="btn btn-primary" id="sub" style="margin-top:14px;width:100%">Submit anonymously</button>
+  <p class="muted">One review per course per professor. No author stored.</p></div>`;
+  const ratings={};
+  document.querySelectorAll(".star-input").forEach(el=>{
+    el.onclick=e=>{const b=e.target.closest("button");if(!b)return;ratings[el.dataset.k]=+b.dataset.v;
+      el.querySelectorAll("button").forEach(x=>x.classList.toggle("on",+x.dataset.v<=ratings[el.dataset.k]));};
+  });
+  document.getElementById("sub").onclick=async(ev)=>{
+    const btn=ev.target;btn.disabled=true;
+    try{
+      const pid=document.getElementById("prof").value;
+      const course=document.getElementById("course").value, year=document.getElementById("year").value;
+      if(!course||!year)throw new Error("Course + year required");
+      if(Object.keys(ratings).length<15)throw new Error("Please rate all 15 questions");
+      const rev=await PUST_DB.addReview({professor_id:pid,course_code:course,academic_year:year,ratings,comment:document.getElementById("comment").value});
+      alert(rev.pending&&PUST_DB.hasBackend()?"Submitted! Syncing to shared store…":"Submitted anonymously!");
+      location.href="professor.html?id="+encodeURIComponent(pid);
+    }catch(e){alert(e.message==="duplicate"?"You already reviewed this course":e.message);btn.disabled=false;}
+  };
+})();
+</script></body></html>

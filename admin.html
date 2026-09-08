@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Admin — PUST</title><link rel="stylesheet" href="css/style.css"><link rel="icon" href="assets/logo.svg"></head><body>
+<main class="wrap" style="padding:28px 16px"><h1>Admin</h1>
+<p class="sub">Shared moderation queue from GitHub (<code>data/reviews/reports.json</code>). No review authors are ever shown (by design).</p>
+<div class="card form"><label>Admin key (set as ADMIN_KEY in Apps Script — kept in this browser session only)<input id="ak" type="password" placeholder="admin key"></label>
+<button class="btn btn-primary btn-sm" id="aks">Unlock moderation</button> <span id="as" class="muted"></span></div>
+<h3>Reports</h3><div id="reps"><p class="muted">Loading shared queue…</p></div>
+<h3>All reviews (shared)</h3><div id="revs"></div>
+</main>
+<script src="js/config.js"></script><script src="js/auth.js"></script><script src="js/db.js"></script><script src="js/ui.js"></script>
+<script>
+PUST_UI.mount();
+(async()=>{
+  await PUST_DB.loadPublic().catch(()=>{});
+  await PUST_DB.refresh().catch(()=>{});
+  const key=()=>sessionStorage.getItem("pust_admin_key")||"";
+  if(key()){document.getElementById("ak").value=key();document.getElementById("as").textContent="unlocked for this session";}
+  document.getElementById("aks").onclick=()=>{sessionStorage.setItem("pust_admin_key",document.getElementById("ak").value);document.getElementById("as").textContent="unlocked for this session";};
+  function paint(){
+    const reps=PUST_DB.reports();
+    const revs=PUST_DB.reviews();
+    document.getElementById("reps").innerHTML=reps.length?reps.map(r=>`<div class="review"><b>${PUST_UI.esc(r.reason)}</b> — review <code>${PUST_UI.esc(r.review_id)}</code><br><small class="muted">${PUST_UI.esc(r.details||"")} • ${PUST_UI.esc(r.created_at||"")} • ${PUST_UI.esc(r.status||"pending")}${r.pending?" • <span class='badge warn'>local only</span>":""}</small><div style="margin-top:8px;display:flex;gap:6px"><button class="btn btn-sm" data-res="${r.id}">Resolve</button><button class="btn btn-sm" data-rem="${r.review_id}">Remove review</button></div></div>`).join(""):"<p class='muted'>No reports.</p>";
+    document.getElementById("revs").innerHTML=revs.map(r=>`<div class="review"><b>${PUST_UI.esc(r.professor_id)}</b> ${PUST_UI.esc(r.course_code)} — ${r.overall}${r.pending?" <span class='badge warn'>local only</span>":""}<br><small>${PUST_UI.esc(r.comment||"")}</small><div style="margin-top:6px"><button class="btn btn-sm" data-del="${r.id}">Remove</button></div></div>`).join("")||"<p class='muted'>No reviews.</p>";
+  }
+  paint();
+  document.onclick=async e=>{
+    const res=e.target.dataset.res, rem=e.target.dataset.rem, del=e.target.dataset.del;
+    if(!res&&!rem&&!del)return;
+    const k=key();if(!k){alert("Enter admin key first.");return;}
+    try{
+      if(res)await PUST_DB.moderate("resolve_report",res,k);
+      if(rem||del)await PUST_DB.moderate("remove_review",rem||del,k);
+      paint();alert("Done — committed to GitHub.");
+    }catch(err){alert(err.message||"Moderation failed. Check backend + admin key. Note: local-only items need backend first.")}
+  };
+})();
+</script></body></html>

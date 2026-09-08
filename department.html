@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Department — PUST Evaluation</title><link rel="stylesheet" href="css/style.css"><link rel="icon" href="assets/logo.svg"></head><body>
+<main class="wrap" style="padding:28px 16px">
+<p><a href="departments.html">← All departments</a></p>
+<h1 id="h"></h1><p class="sub" id="s"></p>
+<div class="grid" id="g"></div>
+</main>
+<script src="js/config.js"></script><script src="js/auth.js"></script><script src="js/db.js"></script><script src="js/ui.js"></script>
+<script>
+PUST_UI.mount();
+(async()=>{
+  const code=PUST_UI.qp("dept");
+  const {departments,professors}=await PUST_DB.loadPublic();
+  await PUST_DB.refresh().catch(()=>{});
+  const d=departments.find(x=>x.code===code)||departments[0];
+  document.getElementById("h").textContent=d.code+" — "+d.name;
+  const list=professors.filter(p=>p.department_code===d.code);
+  document.getElementById("s").textContent=`${list.length} professors • Chairman: ${d.chairman||""} • ${d.email||""}`;
+  document.getElementById("g").innerHTML=list.map(p=>{
+    const st=PUST_DB.profStats(p.pust_id||p.id);
+    return `<a class="prow" href="professor.html?id=${p.pust_id||p.id}">${PUST_UI.avatar(p.name,p.photo_url,48)}
+    <span class="pmeta"><b>${PUST_UI.esc(p.name)}</b><span>${PUST_UI.esc(p.designation||"")} ${p.is_chairman?'<span class="badge">Chairman</span>':""}<br>${st.count?st.overall.toFixed(1)+" / 5 • "+st.count+" reviews":"No reviews yet"}</span></span></a>`;
+  }).join("");
+})();
+</script></body></html>

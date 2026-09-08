@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PUST Teachers' Evaluation</title><meta name="description" content="Anonymous ratings and reviews of PUST teachers and courses">
+<link rel="stylesheet" href="css/style.css"><link rel="icon" href="assets/logo.svg"></head><body>
+<main class="wrap">
+<div class="hero">
+<img src="assets/logo.svg" alt="PUST">
+<h1>PUST Teachers' Evaluation</h1>
+<p>Anonymous ratings and reviews of PUST teachers and courses</p>
+<div class="search"><input id="q" placeholder="Search professors, departments..." autocomplete="off"><div id="qr" class="search-results" hidden></div></div>
+<div class="stats" id="stats"></div>
+<div class="cta-row"><a class="btn" href="departments.html">Browse Departments</a><a class="btn btn-primary" href="write-review.html">Write a review</a></div>
+</div>
+<section class="section"><h2>Top-rated professors</h2><p class="sub">Highest overall scores across at least 3 reviews</p><div class="grid" id="top"></div><p style="text-align:center"><a href="professors.html">See all professors →</a></p></section>
+<section class="section" style="background:#f1f5f9;border-radius:16px;padding:32px 20px;text-align:center">
+<p class="eyebrow">Anonymous to everyone reading</p><div class="goldbar"></div>
+<h2>Reviews never show who wrote them</h2>
+<p class="muted" style="max-width:640px;margin:0 auto">Reviews are published without any author name, and the review record itself has no author column — so nothing on the site, and nothing a moderator sees, reveals who wrote a review.</p>
+<div class="cards3" style="margin-top:16px;text-align:left">
+<div class="card"><h3>No author name on reviews</h3><p class="muted">Stored and shown with no link to your account.</p></div>
+<div class="card"><h3>Separate duplicate check</h3><p class="muted">A different record notes "you reviewed this course" to block duplicates.</p></div>
+<div class="card"><h3>Sign-in is only to ensure access</h3><p class="muted">OTP to your student @s.pust.ac.bd address, only to ensure you are a PUST student.</p></div>
+</div></section>
+</main>
+<script src="js/config.js"></script><script src="js/auth.js"></script><script src="js/db.js"></script><script src="js/ui.js"></script>
+<script>
+PUST_UI.mount("home");
+(async()=>{
+  const {departments,professors}=await PUST_DB.loadPublic();
+  await PUST_DB.refresh().catch(()=>{}); // shared GitHub reviews
+  const revs=PUST_DB.reviews();
+  document.getElementById("stats").innerHTML=`
+    <a class="stat" href="reviews.html"><b>${revs.length}</b><span>${revs.length} reviews</span></a>
+    <a class="stat" href="professors.html"><b>${professors.length}</b><span>${professors.length} professors</span></a>
+    <a class="stat" href="departments.html"><b>${departments.length}</b><span>${departments.length} departments</span></a>`;
+  // top rated (demo: seeded + local reviews)
+  const scored=professors.map(p=>({...p,...PUST_DB.profStats(p.pust_id||p.id)}))
+    .filter(p=>p.count>=3).sort((a,b)=>b.overall-a.overall).slice(0,10);
+  const list=(scored.length?scored:professors.slice(0,10).map(p=>({...p,count:0,overall:0})));
+  document.getElementById("top").innerHTML=list.map((p,i)=>`
+    <a class="prow" href="professor.html?id=${encodeURIComponent(p.pust_id||p.id)}">
+    <span class="rank">${i+1}</span>${PUST_UI.avatar(p.name,p.photo_url)}
+    <span class="pmeta"><b>${PUST_UI.esc(p.name)}</b><span>${PUST_UI.esc(p.department_code)} · ${p.count||0} reviews</span></span>
+    <span class="score">${(p.overall||0).toFixed(1)} <small>/ 5</small></span></a>`).join("");
+  // search
+  const q=document.getElementById("q"),qr=document.getElementById("qr");
+  q.addEventListener("input",()=>{
+    const s=q.value.toLowerCase().trim();if(!s){qr.hidden=true;return;}
+    const pm=professors.filter(p=>p.name.toLowerCase().includes(s)).slice(0,6);
+    const dm=departments.filter(d=>(d.name+d.code).toLowerCase().includes(s)).slice(0,4);
+    qr.innerHTML=pm.map(p=>`<a href="professor.html?id=${p.pust_id}">${PUST_UI.avatar(p.name,p.photo_url,32)}<span><b>${PUST_UI.esc(p.name)}</b><br><small class="muted">${p.department_code}</small></span></a>`).join("")
+      +dm.map(d=>`<a href="department.html?dept=${d.code}"><b>${PUST_UI.esc(d.code)}</b>&nbsp;${PUST_UI.esc(d.name)}</a>`).join("")||"<div style='padding:10px' class='muted'>No match</div>";
+    qr.hidden=false;
+  });
+})();
+</script></body></html>

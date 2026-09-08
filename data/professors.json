@@ -1,0 +1,1930 @@
+{
+  "professors": [
+    {
+      "pust_id": "100009",
+      "name": "Dr. Md. Abdur Rahim",
+      "designation": "Professor",
+      "department_code": "CSE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/DSC08847 (1).jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100009",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100003",
+      "name": "Md. Shafiul Azam",
+      "designation": "Associate Professor",
+      "department_code": "CSE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100003_1.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100003",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100002",
+      "name": "S. M. Hasan Sazzad Iqbal",
+      "designation": "Associate Professor",
+      "department_code": "CSE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_20220424_0002.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100002",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100016",
+      "name": "Dr. Md. Toukir Ahmed",
+      "designation": "Associate Professor",
+      "department_code": "CSE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG-0610.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100016",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100010",
+      "name": "Dr. Md Khaled Ben Islam",
+      "designation": "Associate Professor",
+      "department_code": "CSE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100010.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100010",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100005",
+      "name": "Md. Mursalin",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "CSE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_1111.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100005",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100007",
+      "name": "Md. Kislu Noman",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "CSE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/48367994_378186552956451_413311768115281920_n.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100007",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100011",
+      "name": "Md. Mahmudul Hasan",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "CSE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_7642_1.JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100011",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100012",
+      "name": "Dr. Md. Niaz Imtiaz",
+      "designation": "Assistant Professor",
+      "department_code": "CSE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100012.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100012",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100214",
+      "name": "Nitun Kumar Podder",
+      "designation": "Assistant Professor",
+      "department_code": "CSE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/DSC08895.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100214",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100228",
+      "name": "Nakib Aman",
+      "designation": "Assistant Professor",
+      "department_code": "CSE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Nakib-Aman-Turzo.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100228",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100024",
+      "name": "Dr. T. H. M. Sumon Rashid",
+      "designation": "Associate Professor",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/HeadShot_.png",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100024",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100018",
+      "name": "Dr. Dilip Kumar Sarker",
+      "designation": "Professor",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/CamScanner 07-18-2020 09.44.24_2.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100018",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100020",
+      "name": "Diponkar Kundu",
+      "designation": "Professor",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_0877.JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100020",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100021",
+      "name": "Dr. Md. Masudur Rahman",
+      "designation": "Associate Professor (On Study Leave)",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_9079.JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100021",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100023",
+      "name": "Dr. Md. Rabiul Islam",
+      "designation": "Associate Professor  (On Study Leave)",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/2999AC0272648077659_P.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100023",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100030",
+      "name": "Dr. A.H.M. Iftekharul Ferdous",
+      "designation": "Associate Professor",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100030.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100030",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100025",
+      "name": "Dr. Md. Feroz Ali",
+      "designation": "Associate Professor",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/ChatGPT Image Feb 10, 2026, 10_55_32 AM.png",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100025",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100027",
+      "name": "Md. Golam Sadeque",
+      "designation": "Associate Professor",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG20231215163052.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100027",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100019",
+      "name": "Md. Motaher Hossain",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100019.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100019",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100022",
+      "name": "Md. Galib Hasan",
+      "designation": "Assistant Professor",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Md. Galib Hasan.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100022",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100026",
+      "name": "Nadia Afrin",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100026.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100026",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100028",
+      "name": "Md Asaduzzaman Shobug",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/514415050_24153371750946073_4504879408053031398_n.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100028",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100029",
+      "name": "Rosni Sayed",
+      "designation": "Assistant Professor",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100029.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100029",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100207",
+      "name": "Md. Ariful Islam",
+      "designation": "Assistant Professor",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/ChatGPT Image Apr 15, 2026, 09_40_31 AM(1).png",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100207",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100217",
+      "name": "Md. Shamim Hossain",
+      "designation": "Assistant Professor",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100217.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100217",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100033",
+      "name": "Tonmoy Ghosh",
+      "designation": "Lecturer",
+      "department_code": "EEE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100033.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100033",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100036",
+      "name": "Dr. Md. Fazlul Hoque",
+      "designation": "Professor",
+      "department_code": "MATH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/11- Passport.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100036",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100040",
+      "name": "Dr. Kamruzzaman Khan",
+      "designation": "Professor",
+      "department_code": "MATH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Khan.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100040",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100041",
+      "name": "Dr. Md. Nur Alam",
+      "designation": "Professor (On Study Leave)",
+      "department_code": "MATH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/WeChat Image_20180921103200.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100041",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100044",
+      "name": "Rafiqul Islam",
+      "designation": "Associate Professor",
+      "department_code": "MATH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100044.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100044",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100043",
+      "name": "Dr. Md. Azizur Rahman",
+      "designation": "Associate Professor",
+      "department_code": "MATH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Aziz.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100043",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100046",
+      "name": "Dr. Udoy Sankar Basak",
+      "designation": "Associate Professor",
+      "department_code": "MATH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_9716_1.JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100046",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100042",
+      "name": "Dr. Md. Ekramul Islam",
+      "designation": "Associate Professor",
+      "department_code": "MATH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100042.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100042",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100047",
+      "name": "Md. Rafiqul Islam",
+      "designation": "Associate Professor",
+      "department_code": "MATH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Picture (Passport).JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100047",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100037",
+      "name": "Rajandra Chadra Bhowmik",
+      "designation": "Associate Professor",
+      "department_code": "MATH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100037.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100037",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100045",
+      "name": "S. M. Rayhanul Islam",
+      "designation": "Associate Professor",
+      "department_code": "MATH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/smri ee.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100045",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100039",
+      "name": "Bimal Kumar Datta",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "MATH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100039.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100039",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100185",
+      "name": "Kaniz Fatema",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "MATH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100185.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100185",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100187",
+      "name": "Mousumi Akhter",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "MATH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100187.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100187",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100211",
+      "name": "Md. Aslam Hossain",
+      "designation": "Assistant Professor",
+      "department_code": "MATH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/WhatsApp Image 2026-02-28 at 12.01.40 PM.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100211",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100050",
+      "name": "Dr. Md. Kamruzzaman",
+      "designation": "Professor",
+      "department_code": "BA",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/chairman-bba.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100050",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100049",
+      "name": "Dr. Md. Mushfiqur Rahman",
+      "designation": "Professor",
+      "department_code": "BA",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100049.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100049",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100051",
+      "name": "Dr. Md. Amirul Islam",
+      "designation": "Professor",
+      "department_code": "BA",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/27117-removebg-preview.png",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100051",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100053",
+      "name": "Dr. Md. Hasebur Rahman",
+      "designation": "Professor",
+      "department_code": "BA",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/37143.JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100053",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100055",
+      "name": "Dr. Md. Redwanuzzaman",
+      "designation": "Professor",
+      "department_code": "BA",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/72584.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100055",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100052",
+      "name": "Mohammad Abu Sufian",
+      "designation": "Professor",
+      "department_code": "BA",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Photo-Visa.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100052",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100054",
+      "name": "Dr. Md. Abdullah Al Mamun",
+      "designation": "Professor",
+      "department_code": "BA",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/8400.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100054",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100057",
+      "name": "Dr. Md. Asfaqur Rahman",
+      "designation": "Associate Professor(Management)",
+      "department_code": "BA",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/78108.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100057",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100059",
+      "name": "Dr. Masud Rana",
+      "designation": "Associate Professor (Finance)",
+      "department_code": "BA",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/file_00000000d36c71fdaf70d84c3a34e13c.png",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100059",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100060",
+      "name": "Dr. Md. Kamal Hossain",
+      "designation": "Associate Professor (Marketing)",
+      "department_code": "BA",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/10042 (1).JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100060",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100058",
+      "name": "Dr. Rebeka Sultana Rekha",
+      "designation": "Associate Professor (Finance)",
+      "department_code": "BA",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/REBEKA SULTANA REKHA.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100058",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100063",
+      "name": "Dr. Sheikh Rashel Al Ahmed",
+      "designation": "Professor",
+      "department_code": "EECE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Photo_Rashel.JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100063",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100062",
+      "name": "Dr. Md. Saiful Islam",
+      "designation": "Professor",
+      "department_code": "EECE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100062_up.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100062",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100066",
+      "name": "Dr. Md. Najmul Hossain",
+      "designation": "Professor",
+      "department_code": "EECE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Dr. MNH Photo.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100066",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100067",
+      "name": "Dr. Md. Rashedul Islam",
+      "designation": "Associate Professor",
+      "department_code": "EECE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/DSC_044.JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100067",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100064",
+      "name": "Purno Mohon Ghosh",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "EECE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100064.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100064",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100068",
+      "name": "S. M. Yahea Mahbub",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "EECE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100068.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100068",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100069",
+      "name": "Liton Chandra Paul",
+      "designation": "Assistant Professor",
+      "department_code": "EECE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Liton Chandra Paul.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100069",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100203",
+      "name": "Md. Fatin Ishraque",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "EECE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Fatin Photo_.JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100203",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100202",
+      "name": "Md. Imran Hossain",
+      "designation": "Assistant Professor",
+      "department_code": "EECE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100202.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100202",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100216",
+      "name": "Kumary Sumi Rani Shaha",
+      "designation": "Assistant Professor",
+      "department_code": "EECE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/sumi1 (3).jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100216",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100243",
+      "name": "Most. Marzia Khatun",
+      "designation": "Lecturer",
+      "department_code": "EECE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/blank-profile-picture-973460_1280.png",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100243",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100072",
+      "name": "Dr. Md. Anwar Hossain",
+      "designation": "Professor",
+      "department_code": "ICE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Anwar 1.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100072",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100078",
+      "name": "Dr. Md. Sarwar Hosain",
+      "designation": "Professor",
+      "department_code": "ICE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/WhatsApp Image 2025-12-30 at 4.22.21 PM.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100078",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100073",
+      "name": "Dr. Md. Omar Faruk",
+      "designation": "Professor",
+      "department_code": "ICE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/dof.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100073",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100071",
+      "name": "Dr. Pallab Kanti Podder",
+      "designation": "Associate Professor (On study leave)",
+      "department_code": "ICE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Capture-1.PNG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100071",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100076",
+      "name": "Iffat Ara",
+      "designation": "Associate Professor (On Study Leave)",
+      "department_code": "ICE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100076.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100076",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100077",
+      "name": "Sohag Sarker",
+      "designation": "Associate Professor",
+      "department_code": "ICE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100077.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100077",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100074",
+      "name": "Abul Fazal Mohammad Zainul Abadin",
+      "designation": "Associate Professor (On study leave)",
+      "department_code": "ICE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100074.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100074",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100075",
+      "name": "Dr. Md. Imran Hossain",
+      "designation": "Associate Professor",
+      "department_code": "ICE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/WeChat Image_20220515194336.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100075",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100080",
+      "name": "Taskin Noor Turna",
+      "designation": "Assistant Professor",
+      "department_code": "ICE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Capture.PNG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100080",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100201",
+      "name": "Md. Tofail Ahmed",
+      "designation": "Assistant Professor (On study leave)",
+      "department_code": "ICE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/KDL-99213.JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100201",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100200",
+      "name": "Tarun Debnath",
+      "designation": "Assistant Professor",
+      "department_code": "ICE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100200.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100200",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100221",
+      "name": "Akif Mahdi",
+      "designation": "Lecturer",
+      "department_code": "ICE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Akif Mahdi.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100221",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100082",
+      "name": "Dr. Md. Khairul Alam",
+      "designation": "Professor",
+      "department_code": "PHY",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/82830625_1750718795063364_5277568646963527680_o.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100082",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100086",
+      "name": "Dr. Md. Aftabuzzaman",
+      "designation": "Professor",
+      "department_code": "PHY",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Aftabuzzaman.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100086",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100085",
+      "name": "Dr. Pretam Kumar Das",
+      "designation": "Professor",
+      "department_code": "PHY",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/1000074019.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100085",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100087",
+      "name": "Dr. Samiron Kumar Saha",
+      "designation": "Professor",
+      "department_code": "PHY",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/39705_.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100087",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100088",
+      "name": "Dr. Md. Atikur Rahman",
+      "designation": "Professor",
+      "department_code": "PHY",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Atik pic 22.png",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100088",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100089",
+      "name": "Dr. Md. Shahajan Ali",
+      "designation": "Professor",
+      "department_code": "PHY",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/MSAli.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100089",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100083",
+      "name": "Dr. Md. Hafijur Rahman",
+      "designation": "Associate Professor",
+      "department_code": "PHY",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Photo.Hafiz.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100083",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100091",
+      "name": "Dr. Md. Lokman Ali",
+      "designation": "Associate Professor",
+      "department_code": "PHY",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_1401.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100091",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100084",
+      "name": "Mahmudul Hasan",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "PHY",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100084.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100084",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100090",
+      "name": "Md. Afjalur Rahman",
+      "designation": "Assistant Professor",
+      "department_code": "PHY",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/afjal.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100090",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100092",
+      "name": "Uttam Kumar Chowdhury",
+      "designation": "Assistant Professor",
+      "department_code": "PHY",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100092.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100092",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100093",
+      "name": "Md. Tofajjol Hossen Bhuiyan",
+      "designation": "Assistant Professor",
+      "department_code": "PHY",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/20230420_125521.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100093",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100194",
+      "name": "Maliha Nishat",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "PHY",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_20220920_130608.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100194",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100233",
+      "name": "Dr. Dayal Chandra Roy",
+      "designation": "Assistant Professor",
+      "department_code": "PHY",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100233.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100233",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100095",
+      "name": "Dr. Mir Khaled Iqbal Chowdhury",
+      "designation": "Professor",
+      "department_code": "ECO",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100095.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100095",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100102",
+      "name": "Redwan Ahmed",
+      "designation": "Associate Professor",
+      "department_code": "ECO",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Redwan-New.JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100102",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100096",
+      "name": "Md. Enamul Haque",
+      "designation": "Associate Professor",
+      "department_code": "ECO",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100096.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100096",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100100",
+      "name": "Md. Yahia Bapari",
+      "designation": "Associate Professor",
+      "department_code": "ECO",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Yahia 2.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100100",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100098",
+      "name": "Md. Al-Amin",
+      "designation": "Associate Professor",
+      "department_code": "ECO",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100098.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100098",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100099",
+      "name": "Bikash Chandra Ghosh",
+      "designation": "Associate Professor",
+      "department_code": "ECO",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Bikash_latest_picture.JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100099",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100097",
+      "name": "Dr. Md. Tawhidul Islam",
+      "designation": "Associate Professor",
+      "department_code": "ECO",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100097.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100097",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100101",
+      "name": "Tahmidul Islam",
+      "designation": "Assistant Professor",
+      "department_code": "ECO",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100101.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100101",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100173",
+      "name": "Khaleda Akter",
+      "designation": "Assistant Professor",
+      "department_code": "ECO",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100173.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100173",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100171",
+      "name": "Farjana Eyasmin",
+      "designation": "Assistant Professor",
+      "department_code": "ECO",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_1079.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100171",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100215",
+      "name": "Md. Nehal Hasnain",
+      "designation": "Assistant Professor",
+      "department_code": "ECO",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100215.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100215",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100230",
+      "name": "Md. Obidul Haque",
+      "designation": "Lecturer",
+      "department_code": "ECO",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_20221226_203700-removebg-preview.png",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100230",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100104",
+      "name": "Dr. Mohammad Najmul Islam",
+      "designation": "Professor",
+      "department_code": "GE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/mni.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100104",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100105",
+      "name": "Md Rahedul Islam (D. Eng.)",
+      "designation": "Professor",
+      "department_code": "GE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/490980472_29253618330920676_1475084064668363154_n.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100105",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100106",
+      "name": "A. H. M. Monzurul Mamun",
+      "designation": "Associate Professor",
+      "department_code": "GE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/11.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100106",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100108",
+      "name": "Humayra Anjum",
+      "designation": "Associate Professor",
+      "department_code": "GE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100108.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100108",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100107",
+      "name": "Khondakar Arifuzzaman",
+      "designation": "Assistant Professor",
+      "department_code": "GE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100107.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100107",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100237",
+      "name": "Md. Abrar Tazwar Rijon",
+      "designation": "Lecturer",
+      "department_code": "GE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Md. Abrar Tazwar Rijon.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100237",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100241",
+      "name": "Shekh Md. Shajid Hasan Tusher",
+      "designation": "Lecturer",
+      "department_code": "GE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/photo_Tusher_4.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100241",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100114",
+      "name": "Dr. Mir Humayun Kabir",
+      "designation": "Professor",
+      "department_code": "BAN",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/FB_IMG_1735305610057.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100114",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100110",
+      "name": "Dr. Md. Abdul Alim",
+      "designation": "Professor",
+      "department_code": "BAN",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/FB_IMG_1778058837977.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100110",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100111",
+      "name": "Dr. Mohammad Arif Obaidullah",
+      "designation": "Associate Professor",
+      "department_code": "BAN",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100111.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100111",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100112",
+      "name": "Dr. Jinnat Rehana",
+      "designation": "Associate Professor",
+      "department_code": "BAN",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/46674513_784251215260329_5428357269324562432_o.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100112",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100115",
+      "name": "Dr. Md. Asraful Islam",
+      "designation": "Associate Professor",
+      "department_code": "BAN",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100115.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100115",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100113",
+      "name": "Dr. Md. Tanvir Hyder",
+      "designation": "Associate Professor",
+      "department_code": "BAN",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100113.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100113",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100116",
+      "name": "Muhammad Nurunnabi",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "BAN",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/FB_IMG_1684566041192.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100116",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100119",
+      "name": "Dr. Tahmina Tasnim Nahar",
+      "designation": "Professor",
+      "department_code": "CE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Photo_Tahmina1.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100119",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100118",
+      "name": "Dr. Md. Rashedul Haque",
+      "designation": "Professor",
+      "department_code": "CE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Dr.MRH.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100118",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100120",
+      "name": "Dr. Md. Motiur Rahman",
+      "designation": "Associate Professor",
+      "department_code": "CE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/KakaoTalk_20230510_210004305 (1).jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100120",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100121",
+      "name": "Md. Raquibul Hasan",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "CE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/WhatsApp Image 2025-05-16 at 12.52.31_6e695fa5.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100121",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100125",
+      "name": "Md. Atauzzaman",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "CE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Photo_2024.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100125",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100195",
+      "name": "Md. Abir Hasan",
+      "designation": "Assistant Professor",
+      "department_code": "CE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100195.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100195",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100122",
+      "name": "Ashish Kumer Shaha",
+      "designation": "Lecturer (On Study Leave)",
+      "department_code": "CE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100122.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100122",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100123",
+      "name": "Tanmay Das",
+      "designation": "Lecturer (On Study Leave)",
+      "department_code": "CE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/rsz_4photo.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100123",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100250",
+      "name": "Md. Rafiqul  Islam",
+      "designation": "Lecturer",
+      "department_code": "CE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Rafiqul Islam.JPG.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100250",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100251",
+      "name": "Md. Nasim Sarkar",
+      "designation": "Lecturer",
+      "department_code": "CE",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/1000055492.jpg.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100251",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100192",
+      "name": "Laila Arzumand Banu",
+      "designation": "Assistant Professor",
+      "department_code": "ARCH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100192.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100192",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100127",
+      "name": "Audity Biswas",
+      "designation": "Assistant Professor",
+      "department_code": "ARCH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/150165121_2936585423276094_3792536646686287237_n.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100127",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100128",
+      "name": "Bijoy Dash Gupta",
+      "designation": "Assistant Professor",
+      "department_code": "ARCH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/FB_IMG_1557245462572.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100128",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100129",
+      "name": "Jannat Ara Ferdousi",
+      "designation": "Assistant Professor",
+      "department_code": "ARCH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_20210104_171543.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100129",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100130",
+      "name": "Sarjana Afroz",
+      "designation": "Assistant Professor",
+      "department_code": "ARCH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_4511a.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100130",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100186",
+      "name": "Sonjit Kumar Nath",
+      "designation": "Assistant Professor",
+      "department_code": "ARCH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100186.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100186",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100234",
+      "name": "Zannatuge Jahan",
+      "designation": "Lecturer",
+      "department_code": "ARCH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Messenger_creation_F726FF34-F7A4-4C3E-A0B6-079AB4C04C97.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100234",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100259",
+      "name": "Sourav Ghosh",
+      "designation": "Lecturer",
+      "department_code": "ARCH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/souravghoshpp.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100259",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100260",
+      "name": "Md. Mohaiminul Islam",
+      "designation": "Lecturer",
+      "department_code": "ARCH",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Mohaiminul.arch.PUST.lecturer.15.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100260",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100038",
+      "name": "Dr. Md. Shamim Reza",
+      "designation": "Professor",
+      "department_code": "PHARM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/9FDE5CB2-1F36-45C4-B204-2E59EF8517CE.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100038",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100134",
+      "name": "Dr. Shariful Haque",
+      "designation": "Associate Professor",
+      "department_code": "PHARM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Photo, SH.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100134",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100258",
+      "name": "Dr. Sm Faysal Bellah",
+      "designation": "Associate Professor",
+      "department_code": "PHARM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Faysal_Capture.JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100258",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100133",
+      "name": "Ashish Kumar Sarker",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "PHARM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Ashish Kumar Sarker.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100133",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100135",
+      "name": "Monirul Islam",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "PHARM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100135.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100135",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100176",
+      "name": "Md. Sanowar Hossain",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "PHARM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100176.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100176",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100179",
+      "name": "Most. Reshma Akter",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "PHARM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_20220829_211046.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100179",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100178",
+      "name": "G.M. Masud Parvez",
+      "designation": "Lecturer(On Study Leave)",
+      "department_code": "PHARM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/DSC_.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100178",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100232",
+      "name": "Md. Ashraful Islam",
+      "designation": "Lecturer",
+      "department_code": "PHARM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Ashraful.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100232",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100231",
+      "name": "Abdul Ali Bhuiyan",
+      "designation": "Lecturer",
+      "department_code": "PHARM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Abdul Ali Bhuiyan_PHA.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100231",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100248",
+      "name": "Md. Selim Uddin",
+      "designation": "Lecturer",
+      "department_code": "PHARM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/MSU.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100248",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100247",
+      "name": "Md. Sabbir Hossain",
+      "designation": "Lecturer",
+      "department_code": "PHARM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG-20250615-WA0008.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100247",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100137",
+      "name": "Ratan Kumar Paul",
+      "designation": "Associate Professor",
+      "department_code": "CHEM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100137.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100137",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100132",
+      "name": "Dr. Sultana Shakila Khan",
+      "designation": "Associate Professor",
+      "department_code": "CHEM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Picture.png",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100132",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100139",
+      "name": "Md. Faruak Ahmad",
+      "designation": "Associate Professor",
+      "department_code": "CHEM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/41134.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100139",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100138",
+      "name": "Md. Homayun Kabir",
+      "designation": "Assistant Professor",
+      "department_code": "CHEM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100138.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100138",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100184",
+      "name": "Rasel Ahmed",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "CHEM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/35868.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100184",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100210",
+      "name": "Md. Kawsar Hossain",
+      "designation": "Assistant Professor (Organic Chemistry)",
+      "department_code": "CHEM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/MD. Kawsar Hossain 1.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100210",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100249",
+      "name": "Dr. Tasmina Khandaker",
+      "designation": "Assistant Professor",
+      "department_code": "CHEM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/WhatsApp Image 2026-02-17 at 11.37.16 AM.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100249",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100223",
+      "name": "Abrar Yasir Abir",
+      "designation": "Lecturer",
+      "department_code": "CHEM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/2.php7",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100223",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100224",
+      "name": "Suprim Chandra Sarker",
+      "designation": "Lecturer",
+      "department_code": "CHEM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/b26afa38-8efa-4fde-ad6c-8842d36ecb61.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100224",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100225",
+      "name": "Md. Mahabur Rahman",
+      "designation": "Lecturer",
+      "department_code": "CHEM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Mahabur R.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100225",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100226",
+      "name": "Soma Saha",
+      "designation": "Lecturer",
+      "department_code": "CHEM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/9.png",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100226",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100227",
+      "name": "Md. Byzed Hasan",
+      "designation": "Lecturer",
+      "department_code": "CHEM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Md_Byzed_Hasan.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100227",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100142",
+      "name": "Dr. Md. Jahidul Islam",
+      "designation": "Associate Professor",
+      "department_code": "SW",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/FB_IMG_1660982530473.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100142",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100143",
+      "name": "Mst. Khadezatul Kobra",
+      "designation": "Associate Professor",
+      "department_code": "SW",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100143.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100143",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100189",
+      "name": "Mst. Fatema Begum",
+      "designation": "Assistant Professor",
+      "department_code": "SW",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100189_U .jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100189",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100257",
+      "name": "Md. Sohel Rana",
+      "designation": "Lecturer",
+      "department_code": "SW",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/1771911699329.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100257",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100146",
+      "name": "Dr. Sabba Ruhi",
+      "designation": "Professor",
+      "department_code": "STAT",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Screenshot_2024-07-27-10-16-40-795_com.android.chrome-edit.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100146",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100038",
+      "name": "Dr. Md. Shamim Reza",
+      "designation": "Professor",
+      "department_code": "STAT",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/9FDE5CB2-1F36-45C4-B204-2E59EF8517CE.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100038",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100145",
+      "name": "Imran Parvez",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "STAT",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100145.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100145",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100148",
+      "name": "Md. Shahajada Mia",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "STAT",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Shahajada pic.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100148",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100147",
+      "name": "A.H.M. Musfiqur Rahman Nabeen",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "STAT",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100147.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100147",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100213",
+      "name": "Most. Mira Khatun",
+      "designation": "Assistant Professor",
+      "department_code": "STAT",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100213.png",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100213",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100197",
+      "name": "Most. Sonia Khatun",
+      "designation": "Lecturer (On Study Leave)",
+      "department_code": "STAT",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_20200312_220257.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100197",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100254",
+      "name": "Md. Miraj Hossain",
+      "designation": "Lecturer",
+      "department_code": "STAT",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/rsz_120260517_180149.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100254",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100252",
+      "name": "Dr. Md. Nasif Hossain",
+      "designation": "Lecturer",
+      "department_code": "STAT",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/2026.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100252",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100253",
+      "name": "Rubia Yasmin",
+      "designation": "Lecturer",
+      "department_code": "STAT",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_20260218_070810.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100253",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100150",
+      "name": "Dr. Md. Ashrafuzzaman Pramanik",
+      "designation": "Associate Professor",
+      "department_code": "URP",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Ashraf_2024.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100150",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100151",
+      "name": "Md. Sohel Rana",
+      "designation": "Assistant Professor (on Study Leave)",
+      "department_code": "URP",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/DSC03138-min.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100151",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100153",
+      "name": "Dr. Md. Kamrul Hasan",
+      "designation": "Assistant Professor",
+      "department_code": "URP",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/ezgif-3-ab8cdf38e4.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100153",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100204",
+      "name": "Ashraf Uddin Fahim",
+      "designation": "Assistant Professor (on Study Leave)",
+      "department_code": "URP",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/6585068d-bb4b-42f5-8016-929eb45c53af.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100204",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100205",
+      "name": "Tasnim Tabassum",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "URP",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Image.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100205",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100220",
+      "name": "Saimunnahar Ritu",
+      "designation": "Lecturer",
+      "department_code": "URP",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG-20250415-WA0005.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100220",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100255",
+      "name": "Mst. Tanzila Aktar Shawon",
+      "designation": "Lecturer",
+      "department_code": "URP",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_20260224_123023_1.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100255",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100256",
+      "name": "Ferdous Hussain",
+      "designation": "Lecturer",
+      "department_code": "URP",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/photo 2024.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100256",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100155",
+      "name": "Dr. Md. Mokarrom Hossain",
+      "designation": "Associate Professor",
+      "department_code": "ENG",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100155.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100155",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100156",
+      "name": "Rashed Mahmud",
+      "designation": "Associate  Professor",
+      "department_code": "ENG",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/KDL-99561 (1).JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100156",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100157",
+      "name": "Sanjida Afrin",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "ENG",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100157.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100157",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100158",
+      "name": "Md. Rawshan Yeazdani",
+      "designation": "Assistant Professor",
+      "department_code": "ENG",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100158.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100158",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100159",
+      "name": "Md. Mahamudul Hasan",
+      "designation": "Assistant Professor",
+      "department_code": "ENG",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100159.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100159",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100160",
+      "name": "Shayla Akter",
+      "designation": "Assistant Professor",
+      "department_code": "ENG",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Shaila Aktar.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100160",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100174",
+      "name": "Md. Ibrahim Khalil",
+      "designation": "Assistant Professor",
+      "department_code": "ENG",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/20230116_213201.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100174",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100212",
+      "name": "S.M. Ishmam Alam",
+      "designation": "Assistant Professor",
+      "department_code": "ENG",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100212.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100212",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100175",
+      "name": "Nusrat Jahan Nova",
+      "designation": "Lecturer (On Study Leave)",
+      "department_code": "ENG",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100175.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100175",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100244",
+      "name": "Sabiha Afrin Badhan",
+      "designation": "Lecturer",
+      "department_code": "ENG",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/1000059121.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100244",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100164",
+      "name": "Md. Al-Fahad Bhuiyan",
+      "designation": "Associate Professor",
+      "department_code": "PAD",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_up_100164.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100164",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100163",
+      "name": "Bulbul Ahmed",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "PAD",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100163.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100163",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100165",
+      "name": "Most. Sangida Rahman",
+      "designation": "Assistant Professor",
+      "department_code": "PAD",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100165.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100165",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100206",
+      "name": "Md. Miraz Hosen",
+      "designation": "Assistant Professor",
+      "department_code": "PAD",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/46087-01.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100206",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100219",
+      "name": "Tanveer Alam",
+      "designation": "Lecturer",
+      "department_code": "PAD",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100219.JPG",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100219",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100222",
+      "name": "Nishat Tabassum",
+      "designation": "Lecturer",
+      "department_code": "PAD",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/nishat tabassum...jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100222",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100246",
+      "name": "Nishat Tasnim",
+      "designation": "Lecturer",
+      "department_code": "PAD",
+      "photo_url": "https://pust.ac.bd/includes/images/man2.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100246",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100245",
+      "name": "Shammy Islam",
+      "designation": "Lecturer",
+      "department_code": "PAD",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100245_shammy.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100245",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100261",
+      "name": "Md. Ashek- A- Khoda",
+      "designation": "Lecturer",
+      "department_code": "PAD",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG_4423.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100261",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100167",
+      "name": "Dr. Md. Habibullah",
+      "designation": "Professor",
+      "department_code": "HIS",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/08d33e6d-ae74-4917-bb9b-2883d2fa8fe1.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100167",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100168",
+      "name": "Md. Shafiqur Rahaman",
+      "designation": "Associate Professor",
+      "department_code": "HIS",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/WhatsApp Image 2023-07-07 at 1.24.24 PM.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100168",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100208",
+      "name": "Mst. Rahena Begum",
+      "designation": "Assistant Professor (On Study Leave)",
+      "department_code": "HIS",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/1642928384986_Rahena.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100208",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100209",
+      "name": "Most. Shahanaz Parvin",
+      "designation": "Assistant Professor",
+      "department_code": "HIS",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/1643108386807.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100209",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100238",
+      "name": "Afrin Jahan",
+      "designation": "Lecturer",
+      "department_code": "HIS",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/afrin.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100238",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100239",
+      "name": "Md. Faruk Gazi",
+      "designation": "Lecturer",
+      "department_code": "HIS",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/1646897628068.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100239",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100240",
+      "name": "Abu Tayeb",
+      "designation": "Lecturer",
+      "department_code": "HIS",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/WhatsApp Image 2025-11-05 at 14.29.17_90e9c1ac.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100240",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100262",
+      "name": "Arjuna Akter",
+      "designation": "Lecturer",
+      "department_code": "HIS",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG-20260722-WA0003.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100262",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100180",
+      "name": "Md. Ashikur Rahman Avi",
+      "designation": "Assistant Professor",
+      "department_code": "THM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/WhatsApp Image 2026-09-02 at 9.26.57 AM.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100180",
+      "is_chairman": true
+    },
+    {
+      "pust_id": "100181",
+      "name": "Sraboni Bagchi",
+      "designation": "Assistant Professor",
+      "department_code": "THM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100181.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100181",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100182",
+      "name": "S. M. Shahedul Alam",
+      "designation": "Assistant Professor",
+      "department_code": "THM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Sagor photo 1.jpeg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100182",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100218",
+      "name": "Mahfuza Sultana Fariha",
+      "designation": "Lecturer",
+      "department_code": "THM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/PUST_100218.png",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100218",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100236",
+      "name": "Rafatul Islam",
+      "designation": "Lecturer",
+      "department_code": "THM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/IMG-20240728-WA0002.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100236",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100235",
+      "name": "Md. Tanjil Hossen Sojib",
+      "designation": "Lecturer",
+      "department_code": "THM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/sojib.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100235",
+      "is_chairman": false
+    },
+    {
+      "pust_id": "100242",
+      "name": "Jannatul Ferdous",
+      "designation": "Lecturer",
+      "department_code": "THM",
+      "photo_url": "https://pust.ac.bd/includes/images/teachers/Jannatul Ferdous.jpg",
+      "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100242",
+      "is_chairman": false
+    }
+  ]
+}

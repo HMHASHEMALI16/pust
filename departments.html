@@ -1,0 +1,22 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Departments — PUST Evaluation</title><link rel="stylesheet" href="css/style.css"><link rel="icon" href="assets/logo.svg"></head><body>
+<main class="wrap" style="padding:28px 16px">
+<h1>Departments</h1><p class="sub" id="count"></p>
+<div class="toolbar"><input id="f" placeholder="Filter departments..."></div>
+<div class="dept-grid" id="g"></div>
+</main>
+<script src="js/config.js"></script><script src="js/auth.js"></script><script src="js/db.js"></script><script src="js/ui.js"></script>
+<script>
+PUST_UI.mount();
+(async()=>{
+  const {departments,professors}=await PUST_DB.loadPublic();
+  const counts={};professors.forEach(p=>counts[p.department_code]=(counts[p.department_code]||0)+1);
+  document.getElementById("count").textContent=`${departments.length} departments at PUST`;
+  function render(filter=""){
+    document.getElementById("g").innerHTML=departments
+      .filter(d=>(d.name+d.code).toLowerCase().includes(filter.toLowerCase()))
+      .map(d=>`<a class="dept-card" href="department.html?dept=${encodeURIComponent(d.code)}"><b class="code">${PUST_UI.esc(d.code)}</b><p style="margin:8px 0 4px"><b>${PUST_UI.esc(d.name)}</b></p><small class="muted">${counts[d.code]||0} professors • ${PUST_UI.esc(d.chairman||"")}</small></a>`).join("");
+  }
+  render();document.getElementById("f").oninput=e=>render(e.target.value);
+})();
+</script></body></html>

@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Storage & Sync — PUST</title><link rel="stylesheet" href="css/style.css"><link rel="icon" href="assets/logo.svg"></head><body>
+<main class="wrap" style="padding:28px 16px;max-width:760px">
+<h1>Storage & Sync</h1>
+<div class="notice">All reviews/comments live in this repo: <code>data/reviews/shared.json</code> (reviews) + <code>data/reviews/reports.json</code> (reports) — committed by the backend, readable by everyone. Writes need a verified student login; the GitHub token stays server-side in Apps Script, never in this site.</div>
+<div class="card form">
+<label>Mode<select id="mode"><option value="local">local — this browser only (default, works offline)</option><option value="github">github — sync reviews into repo data/reviews/ via API</option><option value="drive">drive — POST reviews to Google Apps Script → Sheet/Drive</option></select></label>
+<h3>GitHub (public data + shared reviews)</h3>
+<label>Owner<input id="gh_o" placeholder="your-github-username"></label>
+<label>Repo<input id="gh_r" placeholder="pust-evaluation"></label>
+<label>Branch<input id="gh_b" placeholder="main"></label>
+<label>Token (PAT with contents:write — stored only in this browser)<input id="gh_t" type="password" placeholder="ghp_..."></label>
+<h3>Google backend — mail OTP + Drive (recommended, free)</h3>
+<label>Apps Script Web App URL<input id="drv" placeholder="https://script.google.com/macros/s/.../exec"></label>
+<p class="muted">Same URL powers <b>mail verification</b> (OTP via Gmail) + review sync to Sheet/Drive. See <code>apps-script/Code.gs</code> — paste → Deploy → Web app (Execute as Me, Anyone) → paste URL here. Login page auto-switches from testing mode to real mail.</p>
+<button class="btn btn-primary" id="save">Save settings</button>
+<button class="btn" id="sync">Sync now</button> <span id="sync-status" class="muted"></span>
+</div>
+<div class="card" style="margin-top:12px"><h3>Backup</h3><div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn btn-sm" id="exp">Export reviews JSON</button><label class="btn btn-sm">Import<input type="file" id="imp" hidden></label></div><pre id="out" hidden></pre></div>
+</main>
+<script src="js/config.js"></script><script src="js/auth.js"></script><script src="js/db.js"></script><script src="js/ui.js"></script>
+<script>
+PUST_UI.mount();
+const g=PUST_CONFIG.storage.github;
+mode.value=PUST_CONFIG.storage.mode;gh_o.value=g.owner;gh_r.value=g.repo;gh_b.value=g.branch;gh_t.value=g.token;drv.value=PUST_CONFIG.storage.driveEndpoint;
+save.onclick=()=>{localStorage.setItem("pust_store_mode",mode.value);localStorage.setItem("pust_gh_owner",gh_o.value);localStorage.setItem("pust_gh_repo",gh_r.value);localStorage.setItem("pust_gh_branch",gh_b.value||"main");localStorage.setItem("pust_gh_token",gh_t.value);localStorage.setItem("pust_drive_endpoint",drv.value);alert("Saved. Reloading.");location.reload();};
+sync.onclick=()=>PUST_DB.syncNow();
+exp.onclick=()=>{out.hidden=false;out.textContent=PUST_DB.exportAll();};
+imp.onchange=e=>{const f=e.target.files[0];const r=new FileReader();r.onload=()=>{PUST_DB.importAll(r.result);alert("Imported")};r.readAsText(f);};
+</script></body></html>

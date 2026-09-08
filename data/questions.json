@@ -1,0 +1,104 @@
+{
+  "source": "https://duevaluation.com/en/professors/X86K71MB — Question-by-question average section",
+  "total_questions": 15,
+  "scale": "1-5 stars each",
+  "groups": [
+    {
+      "group": "Course design",
+      "questions": [
+        {
+          "key": "q1",
+          "text": "The course objectives and expectations were communicated clearly."
+        },
+        {
+          "key": "q2",
+          "text": "The syllabus was well-structured and appropriately paced."
+        },
+        {
+          "key": "q3",
+          "text": "Course materials and readings were relevant and useful."
+        }
+      ]
+    },
+    {
+      "group": "Teaching methods",
+      "questions": [
+        {
+          "key": "q4",
+          "text": "The teacher explained concepts clearly and effectively."
+        },
+        {
+          "key": "q5",
+          "text": "Classes encouraged critical and independent thinking."
+        },
+        {
+          "key": "q6",
+          "text": "Examples and illustrations made the material easier to understand."
+        }
+      ]
+    },
+    {
+      "group": "Engagement & support",
+      "questions": [
+        {
+          "key": "q7",
+          "text": "The teacher encouraged questions and open discussion."
+        },
+        {
+          "key": "q8",
+          "text": "The teacher was approachable and responsive to students."
+        },
+        {
+          "key": "q9",
+          "text": "The teacher treated all students with respect and fairness."
+        }
+      ]
+    },
+    {
+      "group": "Assessment & feedback",
+      "questions": [
+        {
+          "key": "q10",
+          "text": "Grading criteria were clear, fair, and transparent."
+        },
+        {
+          "key": "q11",
+          "text": "Feedback on assignments and exams was timely and constructive."
+        }
+      ]
+    },
+    {
+      "group": "Professionalism",
+      "questions": [
+        {
+          "key": "q12",
+          "text": "The teacher was punctual and regular with classes."
+        },
+        {
+          "key": "q13",
+          "text": "The teacher maintained professional integrity and conduct."
+        }
+      ]
+    },
+    {
+      "group": "Overall",
+      "questions": [
+        {
+          "key": "q14",
+          "text": "I would recommend this teacher to other students."
+        },
+        {
+          "key": "q15",
+          "text": "Overall, I am satisfied with the teaching in this course."
+        }
+      ]
+    }
+  ],
+  "review_form_fields_inferred": [
+    "professor_id (select with search, or prefilled via ?professor=ID)",
+    "course_code (text, required, e.g. 'AMTH 304, AMTH 401')",
+    "academic_year (text, required, e.g. '1st year', 'Graduated', 'Masters')",
+    "q1-q15 star ratings (all required)",
+    "comment (textarea, optional, EN/BN)"
+  ]
+}

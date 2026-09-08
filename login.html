@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Login — PUST</title><link rel="stylesheet" href="css/style.css"><link rel="icon" href="assets/logo.svg"></head><body>
+<main class="wrap" style="padding:40px 16px;max-width:480px">
+<h1>Sign in</h1><p class="muted">Students only — enter your student email (<code>@s.pust.ac.bd</code>, e.g. <code>210101@s.pust.ac.bd</code>). Teacher/admin emails (<code>@pust.ac.bd</code> without s) cannot log in. We'll email you a 6-digit code (valid 10 min).</p>
+<p class="muted" id="mode"></p>
+<div class="card form"><label>Student email<input id="e" placeholder="210101@s.pust.ac.bd"></label>
+<button class="btn btn-primary" id="s" style="margin-top:12px;width:100%">Send code</button>
+<div id="cbox" hidden><label>6-digit code<input id="c" placeholder="123456" inputmode="numeric" maxlength="6"></label>
+<button class="btn btn-primary" id="v" style="margin-top:12px;width:100%">Verify & login</button>
+<p class="muted" id="demo"></p></div></div>
+<p class="muted">No mail arriving? Set the backend URL in <a href="settings.html">Settings</a> (Admin does it once — same Apps Script URL as Drive sync). Without backend, testing mode shows the code on screen.</p>
+</main>
+<script src="js/config.js"></script><script src="js/auth.js"></script><script src="js/db.js"></script><script src="js/ui.js"></script>
+<script>
+PUST_UI.mount();
+document.getElementById("mode").textContent = PUST_AUTH.hasBackend()
+  ? "✓ Mail backend connected — code will arrive at your inbox."
+  : "○ No mail backend yet — testing mode: code appears on screen.";
+document.getElementById("s").onclick=async(ev)=>{
+  const b=ev.target;b.disabled=true;
+  try{const r=await PUST_AUTH.sendCode(document.getElementById("e").value);
+    document.getElementById("cbox").hidden=false;
+    document.getElementById("demo").innerHTML=r.mode==="mail"
+      ?`Code sent to <b>${PUST_UI.esc(document.getElementById("e").value.trim())}</b> — check inbox/spam. Valid 10 min.`
+      :`Testing mode (no backend): your code is <b>${r.code}</b> — valid 10 min.`;
+  }catch(e){alert(e.message)}finally{b.disabled=false;}
+};
+document.getElementById("v").onclick=async(ev)=>{
+  const b=ev.target;b.disabled=true;
+  try{await PUST_AUTH.verify(document.getElementById("e").value,document.getElementById("c").value);
+    location.href=new URLSearchParams(location.search).get("next")||"write-review.html";
+  }catch(e){alert(e.message)}finally{b.disabled=false;}
+};
+</script></body></html>

@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Professor — PUST Evaluation</title><link rel="stylesheet" href="css/style.css"><link rel="icon" href="assets/logo.svg"></head><body>
+<main class="wrap" style="padding:28px 16px" id="m"></main>
+<script src="js/config.js"></script><script src="js/auth.js"></script><script src="js/db.js"></script><script src="js/ui.js"></script>
+<script>
+PUST_UI.mount();
+(async()=>{
+  const id=PUST_UI.qp("id");
+  const pub=await PUST_DB.loadPublic();
+  await PUST_DB.refresh().catch(()=>{});
+  const p=pub.professors.find(x=>String(x.pust_id||x.id)===String(id));
+  if(!p){document.getElementById("m").innerHTML="<p>Professor not found. <a href='professors.html'>Back</a></p>";return;}
+  const st=PUST_DB.profStats(p.pust_id||p.id);
+  const revs=PUST_DB.reviews().filter(r=>r.professor_id===(p.pust_id||p.id)&&!r.removed);
+  const qgroups=pub.questions.groups||[];
+  document.getElementById("m").innerHTML=`
+  <p><a href="department.html?dept=${p.department_code}">← ${PUST_UI.esc(p.department_code)}</a></p>
+  <div class="card" style="display:flex;gap:16px;align-items:center">${PUST_UI.avatar(p.name,p.photo_url,72)}
+    <div><h1 style="margin:0">${PUST_UI.esc(p.name)}</h1><p class="muted">${PUST_UI.esc(p.department_code)} • ${PUST_UI.esc(p.designation||"")} ${p.is_chairman?'<span class="badge">Chairman</span>':""}<br><small><a href="${PUST_UI.esc(p.profile_url||"#")}" target="_blank">PUST profile</a></small></p>
+    <a class="btn btn-primary btn-sm" href="write-review.html?professor=${p.pust_id||p.id}">Write a review</a></div>
+    <div style="margin-left:auto;text-align:center"><div style="font-size:34px;font-weight:800">${st.count?st.overall.toFixed(1):"—"}</div><small class="muted">/ 5 • ${st.count} reviews</small></div>
+  </div>
+  <div class="card" style="margin-top:12px"><h3>Question-by-question average</h3>
+    ${qgroups.map(g=>`<h4 style="margin:14px 0 4px">${PUST_UI.esc(g.group)}</h4>`+g.questions.map(q=>{const v=st.avg[q.key]||0;return `<div class="qrow"><span>${PUST_UI.esc(q.text)}</span><span><span class="stars">${PUST_UI.stars(v)}</span> <b>${v?v.toFixed(1):"—"}</b></span></div>`}).join("")).join("")}
+  </div>
+  <h2 style="margin-top:20px">Reviews (${revs.length})</h2><div id="rl"></div>`;
+  const rl=document.getElementById("rl");
+  rl.innerHTML=revs.length?revs.map(r=>`<div class="review"><div class="chead"><b>${PUST_UI.esc(r.course_code)}</b><span class="muted">· ${PUST_UI.esc(r.academic_year)}</span><span style="margin-left:auto"><span class="stars">${PUST_UI.stars(r.overall)}</span> <b>${r.overall.toFixed(1)}</b></span></div>
+    ${r.comment?`<p>${PUST_UI.esc(r.comment)}</p>`:""}<small class="muted">${PUST_UI.esc(r.created_at)}</small>
+    <div style="margin-top:8px;display:flex;gap:8px"><button class="btn btn-sm" onclick="PUST_UI.helpful('${r.id}',this)">${r.helpful_count||0} Helpful</button><button class="btn btn-sm" onclick="PUST_UI.reportDialog('${r.id}')">Report</button></div></div>`).join(""):"<p class='muted'>No reviews yet. Be the first.</p>";
+})();
+</script></body></html>
