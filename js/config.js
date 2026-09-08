@@ -23,7 +23,7 @@ window.PUST_CONFIG = {
   // Site owner: paste your Apps Script /exec URL here BEFORE pushing, so every
   // visitor shares one backend (mail OTP + review commits). Visitors can still
   // override it per-browser in Settings. Empty = local demo mode.
-  backendDefault: "",
+  backendDefault: "https://script.google.com/macros/s/AKfycbyiHOGcFsiulp05T_VcN37kDNUOlK9dMpQtL0qQCESX_SKTJmmDK2LWWBw2tox16s5d/exec",
   // Storage adapters: 'local' | 'github' | 'drive' (reviews only; public data always in repo)
   storage: {
     mode: localStorage.getItem("pust_store_mode") || "local",
