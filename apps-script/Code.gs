@@ -14,7 +14,7 @@
 //    (Visitors may still override per-browser in Settings.)
 // Gmail quota ~100-500/day free. OTP 6-digit, 10 min. Reviews committed to
 // data/reviews/shared.json + data/reviews/reports.json in the repo.
-const SHEET_ID = "";
+const SHEET_ID = "1MiBDOGCh1kc44D4llXK0vilWeeG7cIq7fNHjGv_pwOI"; // your PUST Reviews sheet (bound or standalone both work)
 const STUDENT_RE = /@([a-z0-9-]+\.)*s\.pust\.ac\.bd$/i;
 const OTP_TTL_SEC = 600, OTP_MAX_SEND_PER_HOUR = 5, OTP_MAX_TRIES = 8;
 const TICKET_TTL_SEC = 86400; // 24h write ticket after OTP verify
